@@ -12,6 +12,10 @@ resource "openstack_networking_router_interface_v2" "talos-router-interface" {
 resource "openstack_networking_network_v2" "talos" {
     name = "talos-network"
     admin_state_up = true
+    
+#    segments {
+#        network_type = "geneve"
+#    }
 }
 
 resource "openstack_networking_subnet_v2" "talos-subnet-1" {
