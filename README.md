@@ -11,6 +11,10 @@ A step-by-step guide can be found on our blog:
 
 ## Quick Start
 
+> [!NOTE]
+> If you are a NETWAYS Cloud customer and want to deploy Talos there, please see the resources
+> on the `netways-cloud` branch [[Link](https://github.com/NETWAYS/terraform-talos-openstack/tree/netways-cloud)] for a tweaked version.
+
 While we strongly encourage reading the whole step by step guide linked above, here's a primer on
 how to get started with this repository.
 
